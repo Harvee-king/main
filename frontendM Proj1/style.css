@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Slate300: hsl(212, 45%, 89%);
+    --Slate500: hsl(216, 15%, 48%);
+    --Slate900: hsl(218, 44%, 22%);
+}
+
+*{
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    font-family: "Outfit",sans-serif;
+    background-color: var(--Slate300);
+    margin: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.container{
+    width: 330px;
+    border-radius: 15px;
+    background-color: var(--White);
+    padding: 15px;
+    font-size: 15px;
+    color: var(--Slate900);
+    height: auto;
+    box-shadow: 3px 3px 12px hsl(0, 0%, 73%);
+    margin: 15px 0;
+   
+}
+
+.container img{
+    width: 100%;
+   height: auto;
+    border-radius: 15px;
+}
+.txt-box{
+   
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   margin-top: 25px;
+   
+}
+.txt-box h1{
+    margin-bottom: 15px;
+    font-size: 20px;
+    text-align: center;
+   
+    width: 90%;
+}
+.instruction, .instruction a{
+    color: var(--Slate500);
+    text-decoration: none;
+}
+
+.instruction{
+    text-align: center;
+   
+    width: 80%;
+}
+.last-txt{
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px){
+    body{
+        height: 100vh;
+        width: auto;
+    }
+    .container{
+        width: 60%;
+        height: auto;
+    }
+}
