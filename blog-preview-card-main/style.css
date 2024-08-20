@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    
+--Yellow: hsl(47, 88%, 63%);
+--White: hsl(0, 0%, 100%);
+--Gray500: hsl(0, 0%, 42%);
+--Gray950: hsl(0, 0%, 7%);
+
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: hsl(47, 88%, 63%);
+    font-size: 16px;
+    font-family: 'Figtree',sans-serif;
+}
+
+/*Main section styling here*/
+main{
+    width: 100%;
+   height: 90vh;
+   padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: var(--White);
+    padding: 20px;
+    width: 23.5rem;
+    box-shadow: 10px 10px 0px black;
+}
+.hero-img{
+    border-radius: 15px;
+    width: 100%;
+   
+}
+.learning{
+    background-color: var(--Yellow);
+    width: 91px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px 0;
+  
+}
+.learning strong{
+    font-weight: 800;
+}
+.date-published{
+    margin: 10px 0;
+    font-weight: 500;
+}
+.title{
+    font-weight: 800;
+    margin: 15px 0;
+}
+.descr{
+color: var(--Gray500);
+}
+
+.profile-box{
+   
+    display: flex;
+   align-items: center;
+   margin-top: 20px;
+}
+.profile-box p{
+    margin-left: 15px;
+    font-weight: 800;
+}
+.avater{
+    height: 30px;
+    width: 30px;
+}
+
+/*Footer styling rules here*/
+
+footer{
+    font-size: 800;
+
+}
+footer a{
+    text-decoration: none;
+}
+.attribution {
+ font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+        color: hsl(228, 45%, 44%); 
+}
+
+@media only screen and (max-width:300px){
+    
+}
